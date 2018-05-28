@@ -10,6 +10,7 @@ import { DisplayDetailsComponent } from './display-details/display-details.compo
 import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './product/product.component';
 import { ProdComponent } from './prod/prod.component';
+import { ApiComponent } from './api/api.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProdComponent } from './prod/prod.component';
     DisplayDetailsComponent,
     ProductsComponent,
     ProductComponent,
-    ProdComponent
+    ProdComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,
