@@ -6,23 +6,13 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { HeaderComponent } from './header/header.component';
-import { DisplayDetailsComponent } from './display-details/display-details.component';
-import { ProductsComponent } from './products/products.component';
-import { ProductComponent } from './product/product.component';
-import { ProdComponent } from './prod/prod.component';
-import { ApiComponent } from './api/api.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    HeaderComponent,
-    DisplayDetailsComponent,
-    ProductsComponent,
-    ProductComponent,
-    ProdComponent,
-    ApiComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
